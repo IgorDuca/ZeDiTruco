@@ -1,0 +1,65 @@
+.nickNameInput {
+     padding: 20px;
+     background-color: #121212;
+     border-radius: 16px;
+     border: none;
+     width: 300px;
+     transition: .4s ease-in-out;
+     font-family: 'Roboto', sans-serif;
+     font-size: 18px;
+     color: white;
+}
+
+.nickNameInput:focus {
+     background-color: white;
+     color: black;
+}
+
+.content {
+     padding: 20px;
+     border-radius: 32px;
+     background-color: #242424;
+     max-width: 900px;
+     min-height: 500px;
+}
+
+.chatHolder {
+     padding: 20px;
+     border-radius: 16px;
+     background-color: #323232;
+     max-width: 600px;
+     min-width: 500px;
+}
+
+#messageBaloon {
+     padding: 5px;
+     border-radius: 16px;
+     background-color:red;
+     margin-left: 15px;
+     max-width: 300px;
+     margin-bottom: 15px;
+}
+
+#chatListStyle {
+     display: flex;
+     justify-content: center;
+     margin-bottom: 15px;
+}
+
+
+#MyCoolDiv {
+     display: flex;
+     align-items: center;
+}
+
+#chatMessageInput {
+     padding: 20px;
+     background-color: #121212;
+     width: 400px;
+     border-radius: 32px;
+     border: none;
+     color: white;
+     font-family: 'Roboto', sans-serif;
+     font-size: 24px;
+     outline-width: 0;
+}
